@@ -57,4 +57,4 @@ results <- do.call(rbind, results)
 # Reset row names
 rownames(results) <- NULL
 # Save results to Excel file
-xlsx::write.xlsx(results, file.path(r"(Q:\Documents\Projets\Methanogens\Methanogens_results.xlsx)"), row.names = FALSE)
+xlsx::write.xlsx(results, file.path(r"(Q:\Documents\Projets\Methanogens\Methanogens_proteins.xlsx)"), row.names = FALSE)
